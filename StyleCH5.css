@@ -1,0 +1,146 @@
+body {
+    background-image: url(aset/230115-NewJeans-Hanni-OMG-at-Inkigayo-documents-2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, cursive;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.image-gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: 'Viner Hand ITC', cursive;
+    text-align: center;
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); 
+}
+
+
+h2#video,
+h2#audio,
+h2#gambar {
+    font-family: 'Poppins', cursive; 
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #9525b5;
+    background: #21a6df;
+    box-shadow: 1px 1px 2px #1c181c;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+
+h2#video:hover,
+h2#audio:hover,
+h2#gambar:hover {
+    transform: scale(1.05);
+}
+
+
+h2 {
+    color: #fff; 
+}
+
+
+h3 {
+    color:#fff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+li {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: table; 
+    width: 100%; 
+}
+
+.image-gallery div {
+    display: table-row; 
+}
+
+.image-gallery img {
+    display: table-cell;
+    vertical-align: top; 
+    padding: 10px; 
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-gallery h4 {
+    display: table-cell;
+    vertical-align: top; 
+    padding: 20px;
+    margin: 20%;
+    color: #fff;
+}
+
+.music-container {
+    background-color: #f0f0f000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .music-container:hover {
+      transform: translateY(-10px);
+  }
+  
+  #music10 {
+      display: none;
+  }
+  
+  #music11 {
+    display: none;
+  }
+  
+  #music12 {
+      display: none;
+  }
+  
+  #music13 {
+      display: none;
+    }
+
+  #music14 {
+    display: none;
+  }
+
+@media screen and (max-width: 768px) {
+    li {
+        flex-basis: 45%;
+    }
+}
